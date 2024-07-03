@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 140px;
+        width: 1280px;
+        height: 32px;
+        border-bottom: #F0F0F0 solid 1px;
+
+        .info-text{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #9f9f9f;
+
+            img{
+                height: 20px;
+                width: auto;
+            }
+
+            p{
+                font-size: 12px;
+                font-weight: 500;
+                margin: 0;
+
+                span{
+                    color: #f71963;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    nav{
+
+        .nav-search{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            width: 1280px;
+            height: 72px;
+            border-bottom: #F0F0F0 solid 1px;
+
+            .search{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 657px;
+                height: 48px;
+                padding: 0 20px;
+                border-radius: 10px;
+                background-color: #F6F5F2;
+    
+                span{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #9F9F9F;
+                }
+            }
+
+            .icons{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            
+            }
+        }
+
+        .nav-sessions{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 1280px;
+            height: 40px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #9F9F9F;
+
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+        
+    }
+}
