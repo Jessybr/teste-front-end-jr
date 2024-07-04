@@ -15,12 +15,12 @@ export default function SectionCards(){
 
     return(
         <section className='section-cards'>
-            {arrayIcons.map((icon, index) => (
+            {arrayIcons.map((icon, ind) => (
                 <CardIcons
-                    key={index}
+                    key={ind}
                     imageSrc={icon}
-                    text={arrayText[index]}
-                    style={arrayStyle[index]}
+                    text={arrayText[ind]}
+                    style={arrayStyle[ind]}
                 />
             ))}
         </section>
