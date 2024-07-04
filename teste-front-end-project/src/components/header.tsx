@@ -48,7 +48,7 @@ export default function Header(){
                     <span>Livros</span>
                     <span>Moda</span>
                     <span>Lançamentos</span>
-                    <span>Oferta do dia</span>
+                    <span className='pink'>Ofertas do dia</span>
                     <div>
                         <img src={CrownSimple} alt="" />
                         <span>Assinatura</span>
