@@ -1,5 +1,7 @@
-body{
+html, body{
+    width: 1440px;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 header{
@@ -7,9 +9,8 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 0;
-    margin: 0;
+    margin: auto;
     background-color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
 
     .info{
         display: flex;
@@ -23,6 +24,7 @@ header{
         .info-text{
             display: flex;
             flex-direction: row;
+            gap: 10px;
             align-items: center;
             color: #9f9f9f;
 
@@ -91,6 +93,10 @@ header{
             font-weight: 600;
             text-transform: uppercase;
             color: #9F9F9F;
+
+            .pink{
+                color: #F71963;
+            }
 
             div{
                 display: flex;
