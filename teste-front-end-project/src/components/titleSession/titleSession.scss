@@ -1,0 +1,25 @@
+@import '../../style/mixin.scss';
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1138px;
+    height: 45px;
+    margin: auto;
+
+    .line{
+        width: 1138px;
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    h1{
+        @include font-style(30px, 700, #F71963);
+        position: absolute;
+        top: -50px;
+        left: 569;
+        padding: 0 10px;
+        background-color: #FFFFFF;
+    }
+}
