@@ -1,4 +1,4 @@
-@import '../style/mixin.scss';
+@import '../../style/mixin.scss';
 
 .partnerContainer{
     @include display-flex(row, space-around, center, 0);
