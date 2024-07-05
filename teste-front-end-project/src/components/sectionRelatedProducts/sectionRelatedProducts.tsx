@@ -6,7 +6,7 @@ export default function SectionRelatedProducts(){
     return(
         <section>
             <TitleSession
-                text = "Produtos relacionados"
+                text = "Ver todos"
             />
             <div  className={style.productsContainer}>
                 <CardRelatedProducts/>
