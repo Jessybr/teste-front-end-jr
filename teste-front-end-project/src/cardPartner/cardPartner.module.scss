@@ -1,0 +1,39 @@
+@import '../style/mixin.scss';
+
+.partnerCard{
+    @include display-flex(column, end, start, 0);
+    width: 474px;
+    height: 250px;
+    padding: 40px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('../assets/images/partner.png');
+    border-radius: 20px;
+    border: 1px solid purple;
+
+    h1{
+        @include font-style(40px, 700, #FFFFFF);
+        margin: 0;
+    }
+
+    p{
+        @include font-style(16px, 400, #FFFFFF);
+        width: 181px;
+    }
+
+    button{
+        @include font-style(16px, 900, #FFFFFF);
+        width: 131px;
+        height: 48px;
+        border: none;
+        border-radius: 10px;
+        background-color: #F71963;
+    }
+}
+
+.imgPartner{
+    position: sticky;
+    top: 0;
+    left: -300px;
+    width: 554px;
+    height: 300px;
+    border-radius: 20px;
+}
