@@ -1,11 +1,11 @@
 import './otherProducts.scss';
-import MonitorarIcon from '../assets/images/monitorar-tablet-e-smartohone.png';
-import SupermercadoIcon from '../assets/images/supermercados.png';
-import BebidasIcon from '../assets/images/whiskey.png';
-import FerramentasIcon from '../assets/images/ferramentas.png';
-import SaudeIcon from '../assets/images/cuidados-de-saude.png';
-import CorridaIcon from '../assets/images/corrida.png';
-import ModaIcon from '../assets/images/moda.png';
+import MonitorarIcon from '../../assets/images/monitorar-tablet-e-smartohone.png';
+import SupermercadoIcon from '../../assets/images/supermercados.png';
+import BebidasIcon from '../../assets/images/whiskey.png';
+import FerramentasIcon from '../../assets/images/ferramentas.png';
+import SaudeIcon from '../../assets/images/cuidados-de-saude.png';
+import CorridaIcon from '../../assets/images/corrida.png';
+import ModaIcon from '../../assets/images/moda.png';
 import CardIcons from '../cardIcon/cardIcons.tsx';
 
 export default function OtherProducts(){
