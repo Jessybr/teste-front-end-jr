@@ -2,7 +2,8 @@
 
 .partnerContainer{
     @include display-flex(row, space-around, center, 0);
+    width: 1440px;
     height: 350px;
-    margin: 70px 0;
+    margin: 70px auto;
     border-radius: 20px;
 }
