@@ -1,0 +1,8 @@
+@import '../../style/mixin.scss';
+
+.productsContainer{
+    @include display-flex(row, space-around, center, 0);
+    height: 350px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
