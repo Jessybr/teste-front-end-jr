@@ -1,13 +1,12 @@
-@import '../style/mixin.scss';
+@import '../../style/mixin.scss';
 
 .partnerCard{
     @include display-flex(column, end, start, 0);
     width: 474px;
     height: 250px;
     padding: 40px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('../assets/images/partner.png');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('../../assets/images/partner.png');
     border-radius: 20px;
-    border: 1px solid purple;
 
     h1{
         @include font-style(40px, 700, #FFFFFF);
@@ -27,13 +26,4 @@
         border-radius: 10px;
         background-color: #F71963;
     }
-}
-
-.imgPartner{
-    position: sticky;
-    top: 0;
-    left: -300px;
-    width: 554px;
-    height: 300px;
-    border-radius: 20px;
 }
