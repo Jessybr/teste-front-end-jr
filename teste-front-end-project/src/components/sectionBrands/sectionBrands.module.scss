@@ -1,0 +1,14 @@
+@import '../../style/mixin.scss';
+
+section{
+    @include display-flex(column, center, center, 0);
+
+    h1{
+        @include font-style(30px, 700, #F71963);
+    }
+
+    .containerBrands{
+        @include display-flex(row, space-around, center, 0);
+        width: 1250px;
+    }
+}
