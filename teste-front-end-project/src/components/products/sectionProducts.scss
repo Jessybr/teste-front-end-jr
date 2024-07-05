@@ -1,0 +1,49 @@
+@import '../../style/mixin.scss';
+
+section{
+    .container-products{
+        @include display-flex(row, center, start, 0);
+        
+        .products{
+            @include font-style(16px, 400, #3B3B3B);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 211.5px;
+            height: 40px;
+            border: 1px solid #BDBDBD;
+            text-transform: uppercase;
+
+            .pink{
+                font-weight: 700;
+                color: #F71963;
+            }
+        }
+    }
+
+    .container-card{
+        @include display-flex(row, start, start, 28px);
+        width: 1440px;
+        height: 500px;
+        margin: 30px auto;
+        padding: 0 20px;
+
+        .containerArrow{
+            @include display-flex(row, center, center, 40px);
+            height: 500px;
+
+            button{
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+
+        .container{
+            @include display-flex(row, start, start, 65px);
+            width: 1266px;
+            height: 500px;
+            margin: 0;
+        }
+    }
+}

@@ -1,14 +1,14 @@
-import '../assets/style/header.scss';
-import ShieldCheck from '../assets/images/ShieldCheck.png';
-import Truck from '../assets/images/Truck.png'
-import CreditCard from '../assets/images/CreditCard.png';
-import Vtex from '../assets/images/Vtex.png';
-import MagnifyingGlass from '../assets/images/MagnifyingGlass.png';
-import Packege from '../assets/images/Package.png';
-import Heart from '../assets/images/Heart.png';
-import UserCircle from '../assets/images/UserCircle.png';
-import ShoppingCart from '../assets/images/ShoppingCart.png';
-import CrownSimple from '../assets/images/CrownSimple.png';
+import './header.scss';
+import ShieldCheck from '../../assets/images/ShieldCheck.png';
+import Truck from '../../assets/images/Truck.png'
+import CreditCard from '../../assets/images/CreditCard.png';
+import Vtex from '../../assets/images/Vtex.png';
+import MagnifyingGlass from '../../assets/images/MagnifyingGlass.png';
+import Packege from '../../assets/images/Package.png';
+import Heart from '../../assets/images/Heart.png';
+import UserCircle from '../../assets/images/UserCircle.png';
+import ShoppingCart from '../../assets/images/ShoppingCart.png';
+import CrownSimple from '../../assets/images/CrownSimple.png';
 
 export default function Header(){
     return(

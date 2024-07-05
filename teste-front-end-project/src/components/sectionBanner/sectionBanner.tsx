@@ -1,5 +1,5 @@
-import '../assets/style/sectionBanner.scss';
-import Banner from '../assets/images/Banner.png';
+import './sectionBanner.scss';
+import Banner from '../../assets/images/Banner.png';
 
 export default function SectionBanner(){
     return (

@@ -1,0 +1,73 @@
+@import '../../style/mixin.scss';
+
+.cardPhone{
+    @include display-flex(row, center, center, 0);
+    width: 270px;
+    height: 500px;
+    box-shadow: 0px 3px 19px 0px #00000038;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.25);
+    transition: transform .3s;
+
+    &:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateY(10px);
+    }
+
+    .info{
+        @include display-flex(column, center, start, 0);
+        width: 245px;
+        padding: 20px;
+
+        .cardHeader {
+            img{
+                width: 227px;
+                height: 228px;
+            }
+
+            h3{
+                @include font-style(15px, 300, #3F3F40);
+            }
+        }
+
+        img{
+            width: 247px;
+            height: 228px;
+        }
+
+        h3{
+            @include font-style(15px, 300, #3F3F40);
+        }
+
+        .priceOld{
+            @include font-style(16px, 400, #808080);
+            text-decoration: line-through;
+        }
+
+        .price{
+            @include font-style(20px, 700, #3F3F40);
+        }
+
+        .rate{
+            @include font-style(12px, 400, #3F3F40);
+        }
+
+        .freight{
+            @include font-style(12px, 400, #F71963);
+            margin: 10px 0;
+        }
+
+        button{
+            @include font-style(14px, 700, #FFFFFF);
+            align-self: center;
+            width: 245px;
+            height: 44px;
+            background-color: #F71963;
+            border-radius: 4px;
+            border: none;
+            font-family: "Poppins", sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
