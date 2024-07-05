@@ -22,4 +22,8 @@
         padding: 0 10px;
         background-color: #FFFFFF;
     }
+
+    h4{
+        @include font-style(15px, 700, #3F3F40);
+    }
 }
