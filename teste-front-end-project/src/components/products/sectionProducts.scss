@@ -1,6 +1,9 @@
 @import '../../style/mixin.scss';
 
 section{
+    width: 1440px;
+    margin: auto;
+
     .container-products{
         @include display-flex(row, center, start, 0);
         
