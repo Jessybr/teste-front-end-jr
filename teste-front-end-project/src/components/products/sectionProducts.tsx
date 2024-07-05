@@ -49,7 +49,7 @@ export default function SectionProducts() {
         <section>
 
             <TitleSession
-                text = "Produtos relacionados"
+                text = ""
             />
             <div className='container-products'>
                 {arrayProducts.map((text, ind) => (
