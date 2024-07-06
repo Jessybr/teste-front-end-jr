@@ -21,7 +21,7 @@ header{
         height: 32px;
         border-bottom: #F0F0F0 solid 1px;
 
-        .info-text{
+        .infoText{
             display: flex;
             flex-direction: row;
             gap: 10px;
@@ -48,7 +48,7 @@ header{
 
     nav{
 
-        .nav-search{
+        .navSearch{
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -83,7 +83,7 @@ header{
             }
         }
 
-        .nav-sessions{
+        .navSessions{
             display: flex;
             align-items: center;
             justify-content: space-around;
