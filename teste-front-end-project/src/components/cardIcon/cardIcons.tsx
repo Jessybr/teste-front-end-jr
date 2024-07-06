@@ -1,18 +1,18 @@
-import './cardIcons.scss';
+import style from './cardIcons.module.scss';
 
 interface CardProps {
     imageSrc: string;
     text: string;
-    style: string;
+    styleClass: string;
 }
 
-export default function CardIcons({imageSrc, text, style} : CardProps){
+export default function CardIcons({imageSrc, text, styleClass} : CardProps){
     return(
-        <div className="card-icons">
-            <div className={`container-icon ${style}`}>
+        <div className={style.cardIcons}>
+            <div className={`${style.containerIcon} ${style[styleClass]}`}>
                 <img src={imageSrc} alt="" />
             </div>
-            <span>{text}</span>
+            <span className={style[styleClass]}>{text}</span>
         </div>
     )
 }
