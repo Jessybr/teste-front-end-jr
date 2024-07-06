@@ -81,11 +81,6 @@ export default function SectionProducts() {
                     </button>
                 </div>
             </div>
-
-            <div className='pagination'>
-                
-                
-            </div>
         </section>
     );
 }
