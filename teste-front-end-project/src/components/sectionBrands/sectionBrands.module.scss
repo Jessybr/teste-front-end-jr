@@ -2,6 +2,7 @@
 
 section{
     @include display-flex(column, center, center, 0);
+    margin-bottom: 100px;
 
     h1{
         @include font-style(30px, 700, #F71963);
