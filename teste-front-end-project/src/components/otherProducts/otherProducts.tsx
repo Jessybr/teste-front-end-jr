@@ -1,4 +1,4 @@
-import './otherProducts.scss';
+import style from './otherProducts.module.scss';
 import MonitorarIcon from '../../assets/images/monitorar-tablet-e-smartohone.png';
 import SupermercadoIcon from '../../assets/images/supermercados.png';
 import BebidasIcon from '../../assets/images/whiskey.png';
@@ -11,16 +11,16 @@ import CardIcons from '../cardIcon/cardIcons.tsx';
 export default function OtherProducts(){
     const arrayIcons = [MonitorarIcon,SupermercadoIcon,BebidasIcon,FerramentasIcon,SaudeIcon,CorridaIcon,ModaIcon];
     const arrayText = ["Tecnologia","Supermercado","Bebidas","Ferramentas","Saúde","Esportes e Fitness","Moda"];
-    const arrayStyle = ["pink","bgGray","bgGray","bgGray","bgGray","bgGray","bgGray"];
+    const arrayStyle = ["pink"];
 
     return(
-        <section className='section-cards'>
+        <section className={style.sectionCards}>
             {arrayIcons.map((icon, ind) => (
                 <CardIcons
                     key={ind}
                     imageSrc={icon}
                     text={arrayText[ind]}
-                    style={arrayStyle[ind]}
+                    styleClass={arrayStyle[ind]}
                 />
             ))}
         </section>
