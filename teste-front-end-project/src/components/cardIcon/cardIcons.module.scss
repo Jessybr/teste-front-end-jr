@@ -1,4 +1,4 @@
-.card-icons{
+.cardIcons{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -7,7 +7,7 @@
     border-radius: 10px;
     color: #4E4E4E;
 
-    .container-icon{
+    .containerIcon{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -15,6 +15,7 @@
         height: 128px;
         border-radius: 10px;
         box-shadow: 0px 2px 9px 0px #00000038;
+        background-color: #F4F4F4;
     }
 
     span{
@@ -25,9 +26,8 @@
 
     .pink{
         color: #F71963;
+        background-color: #ffffff;
     }
 
-    .bgGray{
-        background-color: #F4F4F4;
-    }
+    
 }
