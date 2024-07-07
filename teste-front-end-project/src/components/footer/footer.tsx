@@ -57,7 +57,7 @@ export default function Footer(){
                     <h3>Formas de pagamento</h3>
                     <div className={style.payment}>
                         {arrayPaymentImg.map((img) => (
-                            <img src={img} alt={img} />
+                            <img src={img} alt="bandeira cartão"/>
                         ))}
                     </div>
                 </div>
