@@ -1,6 +1,6 @@
 @import '../../style/mixin.scss';
 
-.section-banner{
+.sectionBanner{
     @include display-flex(column, start, start, 0);
     width: 1440px;
     height: 395px;
