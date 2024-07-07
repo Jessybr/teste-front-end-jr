@@ -3,7 +3,7 @@ import CircleBrands from "../circleBrands/circleBrands";
 
 export default function SectionBrands(){
     return(
-        <section>
+        <section className={style.container}>
             <h1>Navegue por marcas</h1>
             <div className={style.containerBrands}>
                 <CircleBrands/>

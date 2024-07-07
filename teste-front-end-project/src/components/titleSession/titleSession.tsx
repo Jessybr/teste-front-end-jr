@@ -1,4 +1,4 @@
-import './titleSession.scss';
+import style from './titleSession.module.scss';
 
 interface TitleProps {
     text: string;
@@ -6,9 +6,9 @@ interface TitleProps {
 
 export default function TitleSession({text} : TitleProps){
     return(
-        <div className='container'>
+        <div className={style.container}>
             <h1>Produtos relacionados</h1>
-            <div className='line'></div>
+            <div className={style.line}></div>
             <h4>{text}</h4>
         </div>
     )
